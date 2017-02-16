@@ -1,0 +1,8 @@
+001,Rajiv,Reddy,21,78
+002,Siddarth,Battacharya,22,48
+003,Rajesh,Khanna,22,73
+004,Preethi,Agarwal,21,54
+005,Trupthi,Mohanthy,23,70
+006,Archana,Mishra,23,82
+007,Komal,Nayak,24,67
+008,Bharathi,Nambiayar,24,58

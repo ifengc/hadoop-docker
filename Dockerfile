@@ -46,7 +46,7 @@ RUN cd /usr/local && ln -s ./pig-0.13.0 pig
 # Add pig example for testing
 RUN mkdir /root/pig-example
 ADD pig-example/script.pig /root/pig-example/script.pig
-ADD pig-example/student.txt /root/pig-example/student.pig
+ADD pig-example/student.txt /root/pig-example/student.txt
 ADD pig-example/myudf.py /root/pig-example/myudf.py
 
 # Add bootstrap script

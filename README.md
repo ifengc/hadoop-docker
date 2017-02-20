@@ -16,8 +16,8 @@ docker run -it -p 50030:50030 -p 50060:50060 -p 50070:50070 ifengc/hadoop-docker
 ##### Hadoop testing
 ```bash
 $HADOOP_PREFIX/bin/hadoop fs -put $HADOOP_PREFIX/conf input
-$HADOOP_PREFIX/bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'
-$HADOOP_PREFIX/bin/hadoop fs -cat output/*
+$HADOOP_PREFIX/bin/hadoop jar $HADOOP_PREFIX/hadoop-examples-*.jar grep input output 'dfs[a-z.]+'
+$HADOOP_PREFIX/bin/hadoop fs -cat output/part-00000
 ```
 
 ##### Pig testing

@@ -40,7 +40,7 @@ ADD hdfs-site.xml $HADOOP_PREFIX/conf/hdfs-site.xml
 ADD mapred-site.xml $HADOOP_PREFIX/conf/mapred-site.xml
 
 # Install pig-0.13.0
-RUN curl -s http://apache.stu.edu.tw/pig/pig-0.13.0/pig-0.13.0.tar.gz | tar -xz -C /usr/local/
+RUN curl -s https://archive.apache.org/dist/pig/pig-0.13.0/pig-0.13.0.tar.gz | tar -xz -C /usr/local/
 RUN cd /usr/local && ln -s ./pig-0.13.0 pig
 
 # Add pig example for testing
